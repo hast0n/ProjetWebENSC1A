@@ -24,7 +24,7 @@ class CreateQuestionsTable extends Migration
             $table->timestamps();
 
 
-            git add . && git commit -m "added comments" && git push heroku master && git push -u origin master
+
 
             // L'instruction suivante permet de définir une colonne
             // faisant référence à une clé étrangère
