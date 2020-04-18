@@ -72,4 +72,6 @@ class QuestionController extends Controller
             $question->delete();
         }
     }
+
+
 }

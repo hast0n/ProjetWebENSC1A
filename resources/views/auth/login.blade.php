@@ -8,7 +8,7 @@
     <h3>Page de connexion</h3>
     <p>
         Y'a pas grand chose à faire ici à part se connecter avec ton compte que tu peux créer en cliquant sur le
-        lien "Inscription" en haut à droite (si c'est pas déjà fait). Une fois connecté tu pourra accéder à tous les
+        lien "S'inscrire" en haut à droite (si c'est pas déjà fait). Une fois connecté tu pourra accéder à tous les
         quizs que tu veux !
     </p>
 @endsection

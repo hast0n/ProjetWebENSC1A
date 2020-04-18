@@ -5,7 +5,17 @@
 @endsection
 
 @section("tutos")
+    <h3>Jouer à un quiz !</h3>
 
+    <p>
+        Dans cette section du site, vous allez pouvoir jouer au quiz proposé par l'un des utilisateurs de Quizflare !
+        Vous êtes donc sur la "page d'accueil" du quiz en question, vous pouvez voir les informations que l'auteur à
+        souhaité partager avec les utilisateurs de Quizflare.
+    </p>
+
+    <p>
+        Pour démarrer le quiz, cliquez sur le gros bouton rouge intitulé "Démarrer le quiz"
+    </p>
 @endsection
 
 @section("main")

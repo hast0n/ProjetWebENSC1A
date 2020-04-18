@@ -4,8 +4,8 @@
     <hr>
     <div class="content">
         @foreach($sharedData["popularTags"] as $tag)
-            <a class="tag"
-               href="{{ route('quiz', ['lang' => app()->getLocale(), 'tag' => $tag->name]) }}">
+            <a class="tag" title="{{ $tag->short_description }}"
+               href="{{ route('quiz', ['tag' => $tag->name]) }}">
                 {{ $tag->name }}
             </a>
         @endforeach

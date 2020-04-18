@@ -173,6 +173,10 @@ class QuizController extends Controller
                 'time_passed' => $request->timePassed
             ]);
         }
+    }
 
+    public function bindTag(Request $request) {
+        $quiz = App\Quiz::find($request->quiz_id);
+        $quiz->tags()->attach(App\Tag::find($request->tag_id));
     }
 }

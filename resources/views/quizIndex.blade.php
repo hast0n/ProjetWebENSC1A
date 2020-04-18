@@ -1,7 +1,11 @@
 @extends('layouts.quizzes')
 
 @section("title")
-    {{ __("Explore") }}
+    @if($tag != null)
+        #{{ $tag->name }}
+    @else
+        {{ __("Explore") }}
+    @endif
 @endsection
 
 @section('tutos')
@@ -11,6 +15,10 @@
         sur votre droite, ceux les mieux notés ! Vous trouverez aussi en hait à droite une section dédiée aux tags les
         plus populaires en ce moment, ils vous permettent d'affiner votre recherche pour rapidement trouver ce qui vous
         intéresse le plus.
+    </p>
+
+    <p>
+        Si vous souhaitez filtrer avec l'un des tags affichés, cliquez simplement dessus !
     </p>
 @endsection
 
