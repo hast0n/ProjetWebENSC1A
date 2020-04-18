@@ -1,0 +1,53 @@
+{
+    "Search the website..." :  "Rechercher sur le site...",
+    "Explore" : "Explorer",
+    "Home" : "Accueil",
+    "About" : "À propos",
+
+    "E-mail Address" : "Adresse email",
+    "Password" : "Mot de passe",
+    "Remember me" : "Rester connecté",
+    "Forgot Your Password?" : "Mot de passe oublié ?",
+    "Sign In" : "Se connecter",
+    "Sign Up" : "S'inscrire",
+    "Sign Out" : "Se déconnecter",
+    "Username" : "Nom d'utilisateur",
+    "Confirm Password" : "Confirmer le mot de passe",
+    "Reset Password" : "Réinitialiser le mot de passe",
+    "Send Password Reset Link" : "Envoyer le lien de réinitialisation",
+
+    "Join" : "Rejoindre",
+    "Connect to" : "Se connecter à",
+
+    "Rated" : "Noté",
+    "F d, Y" : "d/m/Y",
+    "By" : "Par",
+    "On" : "Le",
+
+    "Popular tags" : "Tags populaires",
+    "Most latest posts" : "Les plus récents",
+    "Popular quizzes" : "Quiz populaires",
+
+    "Create a quiz" : "Créer un quiz",
+
+    "Not Found" : "Page introuvable",
+
+    "Title" : "Titre",
+    "An awesome title..." : "Trouvez un titre explicite...",
+    "Short Description" : "Courte description",
+    "Give your quiz a short description..." : "Donnez une courte description à votre quiz...",
+    "Additional Information" : "Informations supplémentaires",
+    "Give additional information about your thoughts on this quiz or whatever..." : "Donnez des informations supplémentaires à votre quiz...",
+    "Difficulty Level" : "Niveau de difficulté",
+    "-- Select One --" : "-- Sélectionner --",
+    "Casual" : "Néophyte",
+    "Easy" : "Facile",
+    "Medium" : "Moyen",
+    "Hard" : "Difficile",
+    "Expert" : "Impossible",
+    "Save" : "Enregistrer",
+    "Picture" : "Image",
+    "Upload" : "Télécharger",
+    "Choose picture to illustrate your quiz" : "Choisissez une image pour illustrer votre quiz",
+    "Add questions" : "Ajouter des questions"
+}
