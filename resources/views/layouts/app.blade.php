@@ -54,14 +54,14 @@
                             <input class="form-control glow" id="navSearchbar" type="search" placeholder="{{ __('Search the website...') }}" aria-label="Search">
                         </li>
                         <li>
-                            <a class="nav-link {{ Request::path() === '/home' ? 'current-page' : '' }}" href="{{ route('home') }}">{{ __('Home') }}</a>
+                            <a class="nav-link {{ Request::path() === 'home' ? 'current-page' : '' }}" href="{{ route('home') }}">{{ __('Home') }}</a>
                         </li>
                         <li>
-                            <a class="nav-link {{ Request::path() === '/quiz' ? 'current-page' : '' }}" href="{{ route('quiz') }}">{{ __('Explore') }}</a>
+                            <a class="nav-link {{ Request::path() === 'quiz' ? 'current-page' : '' }}" href="{{ route('quiz') }}">{{ __('Explore') }}</a>
                         </li>
                         @if(Auth::user()->is_admin)
                         <li>
-                            <a class="nav-link {{ Request::path() === '' ? 'current-page' : '' }}" href="{{ route('quizCreate') }}">{{ __('Create a quiz') }}</a>
+                            <a class="nav-link {{ Request::path() === 'quiz/create' ? 'current-page' : '' }}" href="{{ route('quizCreate') }}">{{ __('Create a quiz') }}</a>
                         </li>
                         @endif
                     </ul>
