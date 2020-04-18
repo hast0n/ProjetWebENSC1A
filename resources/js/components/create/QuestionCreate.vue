@@ -24,16 +24,16 @@
         <div class="question-create-content">
 
             <div class="question-create-answers" v-if="answerType === '3'">
-                <div class="d-flex w-100 justify-content-between">
-                    <p>Réponse :</p>
-                    <p>Bonne réponse ?</p>
-                </div>
+                <p>Réponse :</p>
                 <textarea placeholder="Saisissez la réponse juste" class="form-control" v-model="textareaText"></textarea>
             </div>
 
             <div class="question-create-answers" v-if="answerType !== '3'">
 
-                <p>Réponses :</p>
+                <div class="d-flex w-100 justify-content-between">
+                    <p>Réponses :</p>
+                    <p style="margin-right: 100px;">Bonne réponse ?</p>
+                </div>
 
                 <answer-create v-for="(ans, index) in answers"
                                :key="ans.id" :obj="ans"
