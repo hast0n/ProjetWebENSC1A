@@ -152,8 +152,12 @@ class QuizController extends Controller
                 if ($type != 3 && $answerInstance->is_right_answer != $answer["selected"]) {
                     $questionScore = 0;
                 }
-                else if ($type == 3 && $answerInstance->text == $answer["user_guess"]) {
-                    $questionScore = 0;
+                else if ($type == 3) {
+                    $userGuess = trim($answer["user_guess"]);
+                    $rightAnswer = trim($answerInstance->text);
+
+                    if(strtolower($userGuess) != strtolower($rightAnswer))
+                        $questionScore = 0;
                 }
             }
 

@@ -68,19 +68,19 @@
             </select>
         </div>
 
-        <div class="quiz-picture-input">
-            <label>{!! __("Picture") !!} :</label>
-            <div class="input-group">
-                <div class="input-group-prepend">
-                    <span class="input-group-text" id="inputGroupFileAddon01">{!! __("Upload") !!}</span>
-                </div>
-                <div class="custom-file">
-                    <input type="file" class="custom-file-input" id="inputGroupFile01"
-                           aria-describedby="inputGroupFileAddon01">
-                    <label class="custom-file-label" for="inputGroupFile01">{!!  __("Choose picture to illustrate your quiz") !!}</label>
-                </div>
-            </div>
-        </div>
+{{--        <div class="quiz-picture-input">--}}
+{{--            <label>{!! __("Picture") !!} :</label>--}}
+{{--            <div class="input-group">--}}
+{{--                <div class="input-group-prepend">--}}
+{{--                    <span class="input-group-text" id="inputGroupFileAddon01">{!! __("Upload") !!}</span>--}}
+{{--                </div>--}}
+{{--                <div class="custom-file">--}}
+{{--                    <input type="file" class="custom-file-input" id="inputGroupFile01"--}}
+{{--                           aria-describedby="inputGroupFileAddon01">--}}
+{{--                    <label class="custom-file-label" for="inputGroupFile01">{!!  __("Choose picture to illustrate your quiz") !!}</label>--}}
+{{--                </div>--}}
+{{--            </div>--}}
+{{--        </div>--}}
 
 
 

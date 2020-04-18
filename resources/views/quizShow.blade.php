@@ -20,7 +20,7 @@
     </p>
 
     <p>
-        Une fois le quiz terminé,
+        Une fois le quiz terminé, rechargez la page pour voir votre score apparaître
     </p>
 @endsection
 
