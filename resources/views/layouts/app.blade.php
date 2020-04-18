@@ -59,11 +59,11 @@
                         <li>
                             <a class="nav-link {{ Request::path() === 'quiz' ? 'current-page' : '' }}" href="{{ route('quiz') }}">{{ __('Explore') }}</a>
                         </li>
-                        @if(Auth::user()->is_admin)
-                        <li>
-                            <a class="nav-link {{ Request::path() === 'quiz/create' ? 'current-page' : '' }}" href="{{ route('quizCreate') }}">{{ __('Create a quiz') }}</a>
-                        </li>
-                        @endif
+{{--                        @if(Auth::user()->is_admin)--}}
+{{--                        <li>--}}
+{{--                            <a class="nav-link {{ Request::path() === 'quiz/create' ? 'current-page' : '' }}" href="{{ route('quizCreate') }}">{{ __('Create a quiz') }}</a>--}}
+{{--                        </li>--}}
+{{--                        @endif--}}
                     </ul>
 
                     <!-- Right Side Of Navbar -->
@@ -168,7 +168,6 @@
         </info-modal>
     </div>
 
-    {{ Request::path() }}
     @yield("scripts")
 
 </body>
