@@ -59,11 +59,13 @@
                         <li>
                             <a class="nav-link {{ Request::path() === 'quiz' ? 'current-page' : '' }}" href="{{ route('quiz') }}">{{ __('Explore') }}</a>
                         </li>
-{{--                        @if(Auth::user()->is_admin)--}}
-{{--                        <li>--}}
-{{--                            <a class="nav-link {{ Request::path() === 'quiz/create' ? 'current-page' : '' }}" href="{{ route('quizCreate') }}">{{ __('Create a quiz') }}</a>--}}
-{{--                        </li>--}}
-{{--                        @endif--}}
+                        @auth
+                            @if(Auth::user()->is_admin)
+                            <li>
+                                <a class="nav-link {{ Request::path() === 'quiz/create' ? 'current-page' : '' }}" href="{{ route('quizCreate') }}">{{ __('Create a quiz') }}</a>
+                            </li>
+                            @endif
+                        @endauth
                     </ul>
 
                     <!-- Right Side Of Navbar -->
