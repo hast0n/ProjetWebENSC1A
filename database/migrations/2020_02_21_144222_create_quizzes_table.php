@@ -27,8 +27,6 @@ class CreateQuizzesTable extends Migration
                 ->references('id')
                 ->on('users')
                 ->onDelete('cascade');
-
-            // TODO: prevent one user to have 2 quizzes that share the same name ?
         });
     }
 

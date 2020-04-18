@@ -16,6 +16,9 @@ class CreateQuizUserTable extends Migration
         Schema::create('quiz_user', function (Blueprint $table) {
             $table->unsignedBigInteger('user_id');
             $table->unsignedBigInteger('quiz_id');
+
+            // définition d'une colonne 'correct_ratio' de type
+            // decimal à 3 chiffres dont 2 décimales
             $table->decimal('correct_ratio', 3, 2);
             $table->integer('time_passed');
             $table->timestamps();

@@ -33,7 +33,7 @@ class CreateUsersTable extends Migration
 
             // Colonne fournie par défaut stockant la date de vérification
             // des emails utilisateur (non utilisé dans ce projet)
-            // de type timestamp
+            // de type timestamp pouvant prendre la valeur null
             $table->timestamp('email_verified_at')->nullable();
 
             $table->string('password');

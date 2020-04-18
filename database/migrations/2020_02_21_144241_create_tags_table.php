@@ -25,6 +25,8 @@ class CreateTagsTable extends Migration
                 ->on('users')
                 ->onDelete('cascade');
 
+            // instruction permettant de rendre unique
+            // les valeurs dans la colonne name
             $table->unique(['name']);
         });
     }

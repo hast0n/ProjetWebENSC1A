@@ -17,6 +17,8 @@ class CreateQuizTagTable extends Migration
             $table->unsignedBigInteger('quiz_id');
             $table->unsignedBigInteger('tag_id');
 
+            // double renseignement de clé étrangère,
+            // cette table sera une table pivot
             $table->foreign('quiz_id')
                 ->references('id')
                 ->on('quizzes')
@@ -27,6 +29,7 @@ class CreateQuizTagTable extends Migration
                 ->on('tags')
                 ->onDelete('cascade');
 
+            // Définition d'une clé primaire composée des colonnes 'quiz_id' et 'tag_id'
             $table->primary(['quiz_id', 'tag_id']);
         });
     }

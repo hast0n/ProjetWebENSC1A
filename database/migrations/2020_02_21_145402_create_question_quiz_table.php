@@ -29,7 +29,6 @@ class CreateQuestionQuizTable extends Migration
                 ->on('questions')
                 ->onDelete('cascade');
 
-            // assume that a question can be multiple times in one quiz
             $table->unique(['question_id', 'quiz_id', 'rank']);
         });
     }

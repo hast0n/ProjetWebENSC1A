@@ -24,10 +24,8 @@ class CreateQuestionsTable extends Migration
             $table->timestamps();
 
 
-
-
             // L'instruction suivante permet de définir une colonne
-            // faisant référence à une clé étrangère
+            // faisant référence à une clé étrangère :
 
             // renseigner la colonne faisant référence à une autre colonne
             $table->foreign('user_id')
