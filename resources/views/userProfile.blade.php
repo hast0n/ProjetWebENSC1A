@@ -1,11 +1,11 @@
 @extends("layouts.app")
 
 @section("title")
-    Profile de {{ Auth::user()->name }}
+    Profil de {{ Auth::user()->name }}
 @endsection
 
 @section("tutos")
-    <h3>Page de profile</h3>
+    <h3>Page de profil</h3>
     <p>
         Bon, y'a pas grand chose à faire ici à part se rediriger vers des section un peu plus intéressantes.
         Essaie de cliquer sur "Explorer" ou de rechercher des quiz avec la barre de recherche. Si ça fonctionne alors
@@ -67,13 +67,13 @@
         @endslot
 
         @slot('side')
-            <h2>Niveau d'acréditation</h2>
+            <h2>Niveau d'accréditation</h2>
             <hr class="w-100 my-2 mb-3">
             @if(Auth::user()->is_admin)
-                <h4 class="alert-danger" style="text-align: center">Administrateur</h4>
+                <h4 class="alert-danger" style="text-align: center; border-radius: 10px">Administrateur</h4>
                 <hr class="w-100 my-2 mb-3">
             @else
-                <h4 class="alert-info" style="text-align: center">Joueur</h4>
+                <h4 class="alert-info" style="text-align: center; border-radius: 10px">Joueur</h4>
                 <hr class="w-100 my-2 mb-3">
             @endif
                 <form action="{{ route('switchUserType') }}" method="post">

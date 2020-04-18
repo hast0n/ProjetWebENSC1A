@@ -99,7 +99,7 @@
 
                                     @if(!Auth::guest())
                                         <a class="dropdown-item" href="{{ route('profileShow') }}">
-                                            Profile
+                                            Profil
                                         </a>
                                     @endif
 
