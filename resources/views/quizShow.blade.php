@@ -14,7 +14,13 @@
     </p>
 
     <p>
-        Pour démarrer le quiz, cliquez sur le gros bouton rouge intitulé "Démarrer le quiz"
+        Pour démarrer le quiz, cliquez sur le gros bouton rouge intitulé "Démarrer le quiz". Vous allez ensuite pouvoir
+        commencer à répondre aux questions. Si jamais vous ne trouvez pas le bouton "Valider" pour envoyer votre réponse
+        à une question, naviguez vers le bas sur la zone des questions, le bouton devrait apparaître !
+    </p>
+
+    <p>
+        Une fois le quiz terminé,
     </p>
 @endsection
 

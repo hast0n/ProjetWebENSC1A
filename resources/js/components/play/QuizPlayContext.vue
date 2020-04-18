@@ -6,9 +6,9 @@
                 <h2>Avant de commencer...</h2>
                 <p>
                     Les questions vont vous être présentées les unes après les autres mais vous n'aurez pas la possibilité
-                    de revenir en arrière. Un chronomètre en haut à droite de l'écran va s'afficher et vous indiquera le
+                    de revenir en arrière. Un chronomètre en haut de l'écran va s'afficher et vous indiquera le
                     temps restant. Une fois ce temps écoulé, vous ne pourrez plus répondre aux questions et le quiz sera
-                    terminé.
+                    terminé !
                 </p>
                 <p>
                     Pour continuer vers le quiz, cliquez sur "Ok" !
