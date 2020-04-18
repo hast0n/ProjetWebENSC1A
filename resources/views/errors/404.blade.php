@@ -1,7 +1,14 @@
 @extends("layouts.app")
 
-@section("links")
+@section('title')
+    Page introuvable
+@endsection
 
+@section('tutos')
+    <h3>Page d'accueil</h3>
+    <p>
+        Bon bah t'es arrivé jusqu'ici et tu sais pas quoi faire ? INSCRIS TOI ! Merci c'est cool :)
+    </p>
 @endsection
 
 @section("content")

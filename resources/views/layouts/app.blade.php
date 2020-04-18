@@ -39,7 +39,7 @@
                 </a>
 
                 <a class="navbar-brand" id="navbarTextBrand" href="{{ route('home') }}">
-                    {{ config('app.name', 'Laravel') }}
+                    {{ config('app.name', 'Quizflare') }}
                 </a>
 
                 <button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -59,9 +59,9 @@
                         <li>
                             <a class="nav-link {{ Request::path() === '/quiz' ? 'current-page' : '' }}" href="{{ route('quiz') }}">{{ __('Explore') }}</a>
                         </li>
-                        <li>
-                            <a class="nav-link {{ Request::path() === '/about' ? 'current-page' : '' }}" href="{{ route('about') }}">{{ __('About') }}</a>
-                        </li>
+{{--                        <li>--}}
+{{--                            <a class="nav-link {{ Request::path() === '/about' ? 'current-page' : '' }}" href="{{ route('about') }}">{{ __('About') }}</a>--}}
+{{--                        </li>--}}
                     </ul>
 
                     <!-- Right Side Of Navbar -->

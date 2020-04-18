@@ -4,6 +4,16 @@
     {{ __("Explore") }}
 @endsection
 
+@section('tutos')
+    <h3>Parcourez les quizs !</h3>
+    <p>
+        Ici vous pouvez parcourir les quizs postés par les utilisateurs. Sur votre gauche les quizs les plus récents et
+        sur votre droite, ceux les mieux notés ! Vous trouverez aussi en hait à droite une section dédiée aux tags les
+        plus populaires en ce moment, ils vous permettent d'affiner votre recherche pour rapidement trouver ce qui vous
+        intéresse le plus.
+    </p>
+@endsection
+
 @section('main')
 
     <h2>

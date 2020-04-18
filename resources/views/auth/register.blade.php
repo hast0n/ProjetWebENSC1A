@@ -1,5 +1,16 @@
 @extends('layouts.app')
 
+@section('title')
+    Inscription
+@endsection
+
+@section('tutos')
+    <h3>Page d'accueil</h3>
+    <p>
+        Bon bah t'es arrivé jusqu'ici et tu sais pas quoi faire ? INSCRIS TOI ! Merci c'est cool :)
+    </p>
+@endsection
+
 @section('content')
 
     <div class="container">

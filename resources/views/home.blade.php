@@ -63,6 +63,8 @@
         t'as tout gagné.
     </p>
 
+    <p>D'ailleurs la barre de recherche ne fonctionne pas... Donc pour l'instant ça sert à rien d'essayer.</p>
+
     <h3>Comment ça marche ?</h3>
     <p>
         Dans cette section tu trouvera toute l'aide dont tu as besoin pour te repérer sur le site !

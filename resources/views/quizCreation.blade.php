@@ -114,17 +114,29 @@
 
 @section('tutos')
     <h3>Créer un quiz !</h3>
-    <p>C'est ici que se passe la création des quiz ! Vous pouvez alors une fois votre quiz enregistré, le partager avec tout le monde !</p>
+    <p>
+        C'est ici que se passe la création des quiz ! Vous pouvez alors une fois votre quiz enregistré, le partager
+        avec tout le monde ! Il vous faudra ensuite ajouter des questions
+    </p>
 
     <h3>Comment ça marche ?</h3>
     <p>
         Commencez par définir le titre du quiz qui permettra au utilisateurs d'avoir un aperçu général du contenu de votre quiz.
         Ensuite, définissez une courte description expliquant le pourquoi du comment du quiz. Elle sera affichée en dessous du
-        titre lors des recherches, elle permet de donner plus d'indications sur le contenu de votre quiz. Les informations
-        supplémentaires sont là pour communiquer un message additionnel sur votre quiz, il n'apparaitra pas dans les recherches
-        mais uniquement lorsque l'utilisateur vient répondre à votre quiz.
+        titre lors de la navigation parmi les quizs, elle permet de donner plus d'indications sur le contenu de votre quiz.
+        Les informations supplémentaires sont là pour communiquer un message additionnel sur votre quiz, elles n'apparaitront
+        pas dans la navigation mais uniquement lorsque l'utilisateur viendra répondre à votre quiz.
     </p>
-    <p>
 
+    <p>
+        Une fois que toutes ces informations seront enregistrés, la pages sera alors rafraîchie et vous pourrez
+        ajouter ou encore supprimer des questions de votre quiz.
+    </p>
+
+    <p>
+        Si vous souhaitez supprimer votre quiz, c'est tout en bas de la page que ça se passe, le bouton supprimer fait
+        très bien son job d'ailleurs il demande pas de confirmation donc évitez les clics un peu aléatoires... À savoir que
+        la suppression d'un quiz n'entraîne pas la suppresion des questions associées, donc vous pourrez facilement
+        le reconstruire si un problème venait à se produire...
     </p>
 @endsection
