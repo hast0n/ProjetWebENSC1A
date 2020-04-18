@@ -72,9 +72,9 @@
             },
 
             UpdateSelectedAnswers(id, state) {
-                this.$set(this.answers.find(answer => {
+                this.$set(this.answers.filter(answer => {
                     return answer.id === id;
-                }), 'selected', state);
+                })[0], 'selected', state);
 
                 // if (this.data.type === 2) {
                 //     this.answers.forEach(answer => {
@@ -88,9 +88,9 @@
             },
 
             UpdateTextAnswer(id, text) {
-                this.$set(this.answers.find(answer => {
+                this.$set(this.answers.filter(answer => {
                     return answer.id === id;
-                }), 'user_guess', text);
+                })[0], 'user_guess', text);
 
                 this.SetQuestionState();
             },

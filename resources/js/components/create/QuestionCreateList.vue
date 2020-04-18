@@ -123,9 +123,9 @@
             },
 
             addToSelectedQuestions(id, bind = true) {
-                let question = this.userQuestions.find(question => {
+                let question = this.userQuestions.filter(question => {
                     return question.id === id
-                });
+                })[0];
 
                 question.selected = true;
                 this.selectedQuestions.push(question);
@@ -134,9 +134,9 @@
             },
 
             removeFromSelectedQuestions(id, unbind = true) {
-                let question = this.userQuestions.find(question => {
+                let question = this.userQuestions.filter(question => {
                     return question.id === id
-                });
+                })[0];
 
                 question.selected = false;
                 this.selectedQuestions = this.selectedQuestions.filter(item => {

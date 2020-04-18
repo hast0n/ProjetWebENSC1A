@@ -53,24 +53,23 @@
             CloseQuizContext(timePassed) {
                 this.quizLive = false;
                 this.timePassed = timePassed;
-                // this.ComputeScore();
                 this.SendGuesses();
             },
 
-            ComputeScore() {
-                let score = 0;
-                this.userGuesses.forEach(q => {
-                    let type = this.questionData.find(i => i.id === q.id).type;
-                    let questionScore = 1;
-                    q.guesses.forEach(g => {
-                        if ((type !== 3 && g.is_right_answer != g.selected) || g.text === g.user_guess) {
-                            questionScore = 0;
-                        }
-                    });
-                   score += questionScore;
-                });
-                this.correctRatio = Math.round(score / this.questionData.length * 100) / 100;
-            },
+            // ComputeScore() {
+            //     let score = 0;
+            //     this.userGuesses.forEach(q => {
+            //         let type = this.questionData.find(i => i.id === q.id).type;
+            //         let questionScore = 1;
+            //         q.guesses.forEach(g => {
+            //             if ((type !== 3 && g.is_right_answer != g.selected) || g.text === g.user_guess) {
+            //                 questionScore = 0;
+            //             }
+            //         });
+            //        score += questionScore;
+            //     });
+            //     this.correctRatio = Math.round(score / this.questionData.length * 100) / 100;
+            // },
 
             SendGuesses() {
                 axios.post('/quiz/saveScore', {

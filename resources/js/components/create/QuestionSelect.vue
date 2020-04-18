@@ -50,19 +50,9 @@
             }
         },
 
-        // created() {
-        //     this.showAnswers = this.question.answers
-        // },
-
         methods: {
             toggleExpand() {
                 this.expand = !this.expand;
-                // if (this.showAnswers.length < 1) {
-                //     this.showAnswers = this.question.answers
-                // }
-                // else {
-                //     this.showAnswers = [];
-                // }
             },
 
             forward(state) {

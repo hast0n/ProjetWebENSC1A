@@ -23,7 +23,7 @@
                     'id': id,
                 })
                 .then(response => {
-                    this.questions.filter(q => {
+                    this.questions = this.questions.filter(q => {
                         return q.id !== id;
                     })
                 })
@@ -36,7 +36,4 @@
 </script>
 
 <style scoped>
-    .edit-list-item {
-        /*margin*/
-    }
 </style>

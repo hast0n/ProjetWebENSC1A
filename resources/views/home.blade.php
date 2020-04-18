@@ -20,8 +20,8 @@
     <div class="d-flex mt-5 w-75 ml-auto mr-auto justify-content-center align-items-center">
         <p class="expo-text mr-5">
             {{ config('app.name') }} est une site collaboratif qui vous permet de créer et de partager des questionnaires
-            pour ensuite y jouer et ce, peu importe le sujet ! Vous êtes libre de créer et de partager ce que vous voulez
-            (y'a personne pour surveiller...) alors faites vous plaisir et collaborez avec nous (nous sommes 1) !
+            pour ensuite y jouer et tout cela, peu importe le sujet ! Vous êtes libre de créer et de partager ce que vous voulez
+            alors faites vous plaisir !
         </p>
         <img class="home-expo shadow-lg" src="{{ asset('images/computer-desk-electronics-indoors-374074.jpg') }}">
     </div>
@@ -44,14 +44,9 @@
     <div class="d-flex mt-5 w-75 ml-auto mr-auto justify-content-center align-items-center">
         <p class="expo-text mr-5">
             Sur votre droite une magnifique image qui n'a aucun sens et qui vient d'un dépôt gratuit sans demande de
-            créditation de l'auteur comme tout le reste donc on râle pas. C'est là juste pour faire joli.
-            Tiens, une peu bolo bolo coloré ça fait du contenu :
-            <span class="brand-gradient">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non risus. Suspendisse lectus tortor,
-                dignissim sit amet, adipiscing nec, ultricies sed, dolor.
-            </span>
-            "dolor" comme douleur, ce que je ressens actuellement après avoir passé plusieurs jours consécutifs à bosser
-            sur ce projet.
+            créditation de l'auteur comme tout le reste donc on râle pas.
+            Au fait ! Si jamais tu te questionne sur l'utilisation du site, un petit bouton rouge-orange avec un point
+            d'intérogation en bas à droite de l'écran pourra éventuellement t'aider !
         </p>
         <img class="home-expo shadow-lg" src="{{ asset('images/think-outside-of-the-box-6375.jpg') }}">
     </div>

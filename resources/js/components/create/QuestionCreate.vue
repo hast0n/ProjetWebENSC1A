@@ -106,9 +106,9 @@
 
             UpdateTogglers() {
                 this.answers.forEach(answer => {
-                    let togglerId = this.$children.find(child => {
+                    let togglerId = this.$children.filter(child => {
                         return child.obj.id === answer.id;
-                    }).$children[0].id;
+                    })[0].$children[0].id;
 
                     EventHandler.fire(togglerId, answer.status);
                 })

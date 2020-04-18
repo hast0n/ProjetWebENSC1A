@@ -1,6 +1,5 @@
 require('./bootstrap');
 
-
 window.axios = require('axios').default;
 window.Vue = require('vue');
 
@@ -30,8 +29,6 @@ Vue.component('question-edit-list', require('./components/create/QuestionEditLis
 Vue.component('toggler', require('./components/tools/Toggler.vue').default);
 Vue.component('modal', require('./components/tools/Modal.vue').default);
 Vue.component('info-modal', require('./components/tools/InfoModal.vue').default);
-Vue.component('spinner', require('./components/tools/Spinner.vue').default);
-Vue.component('timer', require('./components/tools/Timer.vue').default);
 Vue.component('base-timer', require('./components/tools/BaseTimer.vue').default);
 
 Vue.component('quiz-play-context', require('./components/play/QuizPlayContext').default);
