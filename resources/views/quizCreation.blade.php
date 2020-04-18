@@ -134,6 +134,12 @@
     </p>
 
     <p>
+        Pour ajouter des question, cliquez sur "Mes questions" pour choisir parmi toutes vos questions ou alors créez
+        une question avec "Créer une question" qui sera automatiquement ajoutée à votre quiz. Lorsque vous créez une question,
+        soyez bien sûr d'avoir renseigné quelles sont les bonnes réponses avec le petit bouton sur la droite !
+    </p>
+
+    <p>
         Si vous souhaitez supprimer votre quiz, c'est tout en bas de la page que ça se passe, le bouton supprimer fait
         très bien son job d'ailleurs il demande pas de confirmation donc évitez les clics un peu aléatoires... À savoir que
         la suppression d'un quiz n'entraîne pas la suppresion des questions associées, donc vous pourrez facilement
