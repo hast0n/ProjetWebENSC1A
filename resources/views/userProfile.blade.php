@@ -54,8 +54,10 @@
                             </div>
                         </div>
                     </a>
-                    <div>
-                        <a href="{{ route('quizEdit', ['id' => $quiz->id]) }}">Modifier</a>
+                    <div class="align-self-center">
+                        <a href="{{ route('quizEdit', ['id' => $quiz->id]) }}"
+                           style="margin: 0 15px; height: auto; padding: 10px; color: #c12626"
+                        >Modifier</a>
                     </div>
                 </div>
             @endforeach

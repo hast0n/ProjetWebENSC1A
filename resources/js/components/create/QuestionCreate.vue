@@ -32,7 +32,7 @@
 
                 <div class="d-flex w-100 justify-content-between">
                     <p>Réponses :</p>
-                    <p style="margin-right: 100px;">Bonne réponse ?</p>
+                    <p class="good_answer">Bonne réponse ?</p>
                 </div>
 
                 <answer-create v-for="(ans, index) in answers"
@@ -121,6 +121,12 @@
 </script>
 
 <style scoped>
+    p.good_answer {
+        margin-right: 100px;
+        font-size: 0.85em;
+        color: gray;
+    }
+
     .question-card {
         margin: 0;
         /*box-shadow: rgba(1,1,1,0.1) 1px 1px 6px;*/
