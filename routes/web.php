@@ -31,7 +31,6 @@ Route::redirect('/', '/home');
 
     Route::group(['middleware'=>'admin'], function () {
 
-        Route::post('/quiz/saveScore', 'QuizController@saveScore')->name('saveScore');
 
         Route::post('/quiz/edit/addQuestion', 'QuizController@bind')->name('bindQuestion');
         Route::post('/quiz/edit/removeQuestion', 'QuizController@unbind')->name('unbindQuestion');
@@ -48,8 +47,11 @@ Route::redirect('/', '/home');
         Route::get('/quiz/create', 'QuizController@create')->name('quizCreate');
         Route::get('/quiz/{id}/edit', 'QuizController@edit')->name('quizEdit');
 
-
     });
+
+    Route::post('/quiz/saveScore', 'QuizController@saveScore')
+        ->name('saveScore')
+        ->middleware('auth');
 
     Route::get('/questions/{id}/untaggedAnswers', 'QuestionController@getUntaggedAnswers')
         ->name('getUntaggedAnswers')
