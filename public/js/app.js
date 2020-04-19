@@ -39959,7 +39959,7 @@ var render = function() {
     _c("div", { staticClass: "question-create-content" }, [
       _vm.answerType === "3"
         ? _c("div", { staticClass: "question-create-answers" }, [
-            _c("p", [_vm._v("Réponse :")]),
+            _c("p", [_vm._v("Réponses :")]),
             _vm._v(" "),
             _c("textarea", {
               directives: [

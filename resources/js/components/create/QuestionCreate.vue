@@ -24,7 +24,7 @@
         <div class="question-create-content">
 
             <div class="question-create-answers" v-if="answerType === '3'">
-                <p>Réponse :</p>
+                <p>Réponses :</p>
                 <textarea placeholder="Saisissez la réponse juste" class="form-control" v-model="textareaText"></textarea>
             </div>
 
