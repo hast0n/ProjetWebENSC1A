@@ -52,10 +52,10 @@
             axios.get('/questions/' + this.data.id + '/untaggedAnswers')
             .then(response => {
                 console.log(response.data);
-                // this.answers = response.data;
-                // this.answers.forEach(answer => {
-                //     answer.selected = false;
-                // })
+                this.answers = response.data;
+                this.answers.forEach(answer => {
+                    answer.selected = false;
+                })
             })
             .catch(error => {
                 console.log(error, 'Returning empty array.');

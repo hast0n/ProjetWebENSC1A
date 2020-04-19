@@ -2671,11 +2671,15 @@ __webpack_require__.r(__webpack_exports__);
     }
   },
   created: function created() {
+    var _this = this;
+
     axios.get('/questions/' + this.data.id + '/untaggedAnswers').then(function (response) {
-      console.log(response.data); // this.answers = response.data;
-      // this.answers.forEach(answer => {
-      //     answer.selected = false;
-      // })
+      console.log(response.data);
+      _this.answers = response.data;
+
+      _this.answers.forEach(function (answer) {
+        answer.selected = false;
+      });
     })["catch"](function (error) {
       console.log(error, 'Returning empty array.');
       return [];

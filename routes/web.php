@@ -44,13 +44,16 @@ Route::redirect('/', '/home');
         Route::post('/question', 'QuestionController@store')->name('questionStore');
         Route::get('/questions/get', 'QuestionController@get')->name('getQuestions');
         Route::get('/questions/{id}/answers', 'QuestionController@answers')->name('getAnswers');
-        Route::get('/questions/{id}/untaggedAnswers', 'QuestionController@getUntaggedAnswers')->name('getUntaggedAnswers');
 
         Route::get('/quiz/create', 'QuizController@create')->name('quizCreate');
         Route::get('/quiz/{id}/edit', 'QuizController@edit')->name('quizEdit');
 
 
     });
+
+    Route::get('/questions/{id}/untaggedAnswers', 'QuestionController@getUntaggedAnswers')
+        ->name('getUntaggedAnswers')
+        ->middleware('auth');
 
     Route::get('/profile', 'ProfileController@show')->name('profileShow')->middleware('auth');
     Route::post('/profile/switch', 'ProfileController@switch')->name('switchUserType')->middleware('auth');
