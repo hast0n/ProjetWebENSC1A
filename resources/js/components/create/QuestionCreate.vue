@@ -31,7 +31,7 @@
             <div class="question-create-answers" v-if="answerType !== '3'">
 
                 <div class="d-flex w-100 justify-content-between">
-                    <p>Réponses :</p>
+                    <p>Vos réponses :</p>
                     <p class="good_answer">Bonne réponse ?</p>
                 </div>
 
