@@ -2674,6 +2674,7 @@ __webpack_require__.r(__webpack_exports__);
     var _this = this;
 
     axios.get('/questions/' + this.data.id + '/untaggedAnswers').then(function (response) {
+      console.log(response.data);
       _this.answers = response.data;
 
       _this.answers.forEach(function (answer) {
